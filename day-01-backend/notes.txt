@@ -3,11 +3,12 @@ NODE :
   - helps to run js code outside the browser.
   - built on Chrome's V8 engine.
 
-  - developed by Ryan
-  - he copied V8 engine and did some modified with c++ codes.
+  - developed by Ryan Dahl & launched in 2009
+  - he copied V8 engine and did some modification with c++ codes.
   - node js handle multiple concurrent connection with the help of asynchronous code nature
 
 V8-Engine :
+  - exist in browser.
   - helps to run js in browser.
 
 how node js runs file outside the browser ?
