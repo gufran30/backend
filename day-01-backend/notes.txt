@@ -1,0 +1,35 @@
+NODE :
+  - runtime environment for js.
+  - helps to run js code outside the browser.
+  - built on Chrome's V8 engine.
+
+  - developed by Ryan
+  - he copied V8 engine and did some modified with c++ codes.
+  - node js handle multiple concurrent connection with the help of asynchronous code nature
+
+V8-Engine :
+  - helps to run js in browser.
+
+how node js runs file outside the browser ?
+  - uses command line : node file_name.js
+  - Node provides its own environment within APIs (like fs, http, etc)
+
+Packages :
+  - third-party libraries.
+  - Reusable piece of code
+  - installed via npm (Node Package Manager)
+  - Ex: npm install cat-me
+
+  Que : What if you accidently delete node_module package ?
+    - just type " npm install" in terminal.
+    - you will get back you package.
+
+  package.json :
+    - its a file, which stored all the packages that you are using in your project.
+    - in dependencies, you can see all the packages name and their versions.
+
+
+Modules :
+  - built-in functionnalities provided by Nodejs
+  - comes along with Nodejs
+  - no need to install like packages.
