@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register EJS</title>
+    <link rel="stylesheet" href="/styles/theme.css" />
+    <link rel="stylesheet" href="/styles/auth-form.css" />
+  </head>
+  <body>
+    <main class="auth-container">
+      <section class="card" role="region" aria-label="Registration form">
+        <header class="card-header">
+          <h1 class="title">Create your account</h1>
+          <p class="subtitle">It's a quick and easy.</p>
+        </header>
+
+        <form
+          class="auth-form"
+          action="/auth/register"
+          method="post"
+          novalidate
+        >
+          <div class="field">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="input"
+              id="email"
+              name="email"
+              inputmode="email"
+              autocomplete="email"
+              placeholder="'you@example.com"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              class="input"
+              id="username"
+              name="username"
+              autocomplete="username"
+              placeholder="your name"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input
+            class="input"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="*******"
+              autocomplete="new-password"
+              required
+            />
+          </div>
+          <div class="actions">
+            <button class="btn primary" type="submit">Create account</button>
+          </div>
+        </form>
+
+        <footer class="card-footer">
+          <p class="muted">Already have an account? <a href="/login" class="link">Sign in</a></p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
